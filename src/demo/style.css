@@ -1,0 +1,170 @@
+html,body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    /*background-color: #fff;*/
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    background-image: url(./html-markup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.full-width {
+    width: 100vw;
+    margin: 0;
+}
+
+.green {
+    background-color: #1a8f38;
+}
+
+.blue {
+    background-color: #1c415d;
+}
+
+.white {
+    background-color: white;
+}
+
+.header {
+    text-align: right;
+}
+
+.nav {
+    background-color: #1a8f38;
+    height: 5em;
+    position: relative;
+}
+
+.nav-list {
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline;
+    padding: 0 1em;
+    border-right: 1px solid #fff;
+}
+
+.nav-item:last-child {
+    border: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.site-title {
+    color: #1a8f38;
+    font-weight: 300;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.subsite-title {
+    color: #1a8f38;
+    font-weight: normal;
+}
+
+.main {
+    padding: 2em 0.5em;
+    color: #fff;
+}
+
+.two-column {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    margin: 0 5px;
+    width: 50%;
+}
+
+.box {
+    padding: 1.5em;
+    background-size: 120%;
+}
+
+.form label {
+    display: block;
+}
+
+.form input {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.form textarea {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.form-button {
+    width: 100%;
+    background-color: #1a8f38;
+    border: none;
+    margin-top: 1em;
+    padding: 1.5em;
+    font-size: 1em;
+    color: white;
+}
+
+.auto-margin {
+    text-align: center;
+}
+
+.img {
+    margin-top: 2em;
+    width: 75%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+@media all and (min-width: 768px) {
+    .content-width {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .content-width {
+        padding: 0 1em;
+    }
+
+    .subsite-title {
+        height: 2.5em;
+    }
+    
+    .two-column {
+        display: block;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
